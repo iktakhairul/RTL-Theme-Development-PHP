@@ -61,7 +61,7 @@ class Requests_Auth_Basic implements Requests_Auth {
 	/**
 	 * Set cURL parameters before the data is sent
 	 *
-	 * @param resource $handle cURL resource
+	 * @param assets $handle cURL assets
 	 */
 	public function curl_before_send(&$handle) {
 		curl_setopt($handle, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);

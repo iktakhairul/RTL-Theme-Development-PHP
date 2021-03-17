@@ -41,7 +41,7 @@ final class WP_oEmbed_Controller {
 					'permission_callback' => '__return_true',
 					'args'                => array(
 						'url'      => array(
-							'description' => __( 'The URL of the resource for which to fetch oEmbed data.' ),
+							'description' => __( 'The URL of the assets for which to fetch oEmbed data.' ),
 							'required'    => true,
 							'type'        => 'string',
 							'format'      => 'uri',
@@ -69,7 +69,7 @@ final class WP_oEmbed_Controller {
 					'permission_callback' => array( $this, 'get_proxy_item_permissions_check' ),
 					'args'                => array(
 						'url'       => array(
-							'description' => __( 'The URL of the resource for which to fetch oEmbed data.' ),
+							'description' => __( 'The URL of the assets for which to fetch oEmbed data.' ),
 							'required'    => true,
 							'type'        => 'string',
 							'format'      => 'uri',

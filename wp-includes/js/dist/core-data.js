@@ -2978,9 +2978,9 @@ function receiveUploadPermissions(hasUploadPermissions) {
 }
 /**
  * Returns an action object used in signalling that the current user has
- * permission to perform an action on a REST resource.
+ * permission to perform an action on a REST assets.
  *
- * @param {string}  key       A key that represents the action and REST resource.
+ * @param {string}  key       A key that represents the action and REST assets.
  * @param {boolean} isAllowed Whether or not the user can perform the action.
  *
  * @return {Object} Action object.
@@ -4458,7 +4458,7 @@ function embedPreviews() {
 }
 /**
  * State which tracks whether the user can perform an action on a REST
- * resource.
+ * assets.
  *
  * @param  {Object} state  Current state.
  * @param  {Object} action Dispatched action.
@@ -5265,7 +5265,7 @@ function hasUploadPermissions(state) {
 }
 /**
  * Returns whether the current user can perform the given action on the given
- * REST resource.
+ * REST assets.
  *
  * Calling this may trigger an OPTIONS request to the REST API via the
  * `canUser()` resolver.
@@ -5274,8 +5274,8 @@ function hasUploadPermissions(state) {
  *
  * @param {Object}   state            Data state.
  * @param {string}   action           Action to check. One of: 'create', 'read', 'update', 'delete'.
- * @param {string}   resource         REST resource to check, e.g. 'media' or 'posts'.
- * @param {string=}  id               Optional ID of the rest resource to check.
+ * @param {string}   resource         REST assets to check, e.g. 'media' or 'posts'.
+ * @param {string=}  id               Optional ID of the rest assets to check.
  *
  * @return {boolean|undefined} Whether or not the user can perform the action,
  *                             or `undefined` if the OPTIONS request is still being made.
@@ -6019,12 +6019,12 @@ function resolvers_hasUploadPermissions() {
 }
 /**
  * Checks whether the current user can perform the given action on the given
- * REST resource.
+ * REST assets.
  *
  * @param {string}  action   Action to check. One of: 'create', 'read', 'update',
  *                           'delete'.
- * @param {string}  resource REST resource to check, e.g. 'media' or 'posts'.
- * @param {?string} id       ID of the rest resource to check.
+ * @param {string}  resource REST assets to check, e.g. 'media' or 'posts'.
+ * @param {?string} id       ID of the rest assets to check.
  */
 
 function resolvers_canUser(action, resource, id) {

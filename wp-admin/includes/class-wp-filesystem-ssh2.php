@@ -528,7 +528,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	 * @param string       $file      Path to the file or directory.
 	 * @param bool         $recursive Optional. If set to true, deletes files and folders recursively.
 	 *                                Default false.
-	 * @param string|false $type      Type of resource. 'f' for file, 'd' for directory.
+	 * @param string|false $type      Type of assets. 'f' for file, 'd' for directory.
 	 *                                Default false.
 	 * @return bool True on success, false on failure.
 	 */
@@ -565,7 +565,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	}
 
 	/**
-	 * Checks if resource is a file.
+	 * Checks if assets is a file.
 	 *
 	 * @since 2.7.0
 	 *
@@ -577,7 +577,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	}
 
 	/**
-	 * Checks if resource is a directory.
+	 * Checks if assets is a directory.
 	 *
 	 * @since 2.7.0
 	 *
@@ -744,7 +744,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	 *     @type int    $lastmodunix Last modified unix timestamp.
 	 *     @type mixed  $lastmod     Last modified month (3 letter) and day (without leading 0).
 	 *     @type int    $time        Last modified time.
-	 *     @type string $type        Type of resource. 'f' for file, 'd' for directory.
+	 *     @type string $type        Type of assets. 'f' for file, 'd' for directory.
 	 *     @type mixed  $files       If a directory and $recursive is true, contains another array of files.
 	 * }
 	 */

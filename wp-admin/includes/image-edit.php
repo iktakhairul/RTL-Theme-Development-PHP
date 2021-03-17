@@ -286,12 +286,12 @@ function wp_stream_image( $image, $mime_type, $attachment_id ) {
 		_deprecated_argument( __FUNCTION__, '3.5.0', sprintf( __( '%1$s needs to be a %2$s object.' ), '$image', 'WP_Image_Editor' ) );
 
 		/**
-		 * Filters the GD image resource to be streamed to the browser.
+		 * Filters the GD image assets to be streamed to the browser.
 		 *
 		 * @since 2.9.0
 		 * @deprecated 3.5.0 Use {@see 'image_editor_save_pre'} instead.
 		 *
-		 * @param resource|GdImage $image         Image resource to be streamed.
+		 * @param assets|GdImage $image         Image assets to be streamed.
 		 * @param int              $attachment_id The attachment post ID.
 		 */
 		$image = apply_filters_deprecated( 'image_save_pre', array( $image, $attachment_id ), '3.5.0', 'image_editor_save_pre' );
@@ -413,16 +413,16 @@ function _image_get_preview_ratio( $w, $h ) {
 }
 
 /**
- * Returns an image resource. Internal use only.
+ * Returns an image assets. Internal use only.
  *
  * @since 2.9.0
  * @deprecated 3.5.0 Use WP_Image_Editor::rotate()
  * @see WP_Image_Editor::rotate()
  *
  * @ignore
- * @param resource|GdImage  $img   Image resource.
+ * @param assets|GdImage  $img   Image assets.
  * @param float|int         $angle Image rotation angle, in degrees.
- * @return resource|GdImage|false GD image resource or GdImage instance, false otherwise.
+ * @return assets|GdImage|false GD image assets or GdImage instance, false otherwise.
  */
 function _rotate_image_resource( $img, $angle ) {
 	_deprecated_function( __FUNCTION__, '3.5.0', 'WP_Image_Editor::rotate()' );
@@ -440,17 +440,17 @@ function _rotate_image_resource( $img, $angle ) {
 }
 
 /**
- * Flips an image resource. Internal use only.
+ * Flips an image assets. Internal use only.
  *
  * @since 2.9.0
  * @deprecated 3.5.0 Use WP_Image_Editor::flip()
  * @see WP_Image_Editor::flip()
  *
  * @ignore
- * @param resource|GdImage $img  Image resource or GdImage instance.
+ * @param assets|GdImage $img  Image assets or GdImage instance.
  * @param bool             $horz Whether to flip horizontally.
  * @param bool             $vert Whether to flip vertically.
- * @return resource|GdImage (maybe) flipped image resource or GdImage instance.
+ * @return assets|GdImage (maybe) flipped image assets or GdImage instance.
  */
 function _flip_image_resource( $img, $horz, $vert ) {
 	_deprecated_function( __FUNCTION__, '3.5.0', 'WP_Image_Editor::flip()' );
@@ -475,17 +475,17 @@ function _flip_image_resource( $img, $horz, $vert ) {
 }
 
 /**
- * Crops an image resource. Internal use only.
+ * Crops an image assets. Internal use only.
  *
  * @since 2.9.0
  *
  * @ignore
- * @param resource|GdImage $img Image resource or GdImage instance.
+ * @param assets|GdImage $img Image assets or GdImage instance.
  * @param float            $x   Source point x-coordinate.
  * @param float            $y   Source point y-coordinate.
  * @param float            $w   Source width.
  * @param float            $h   Source height.
- * @return resource|GdImage (maybe) cropped image resource or GdImage instance.
+ * @return assets|GdImage (maybe) cropped image assets or GdImage instance.
  */
 function _crop_image_resource( $img, $x, $y, $w, $h ) {
 	$dst = wp_imagecreatetruecolor( $w, $h );
@@ -562,7 +562,7 @@ function image_edit_apply_changes( $image, $changes ) {
 		unset( $filtered );
 	}
 
-	// Image resource before applying the changes.
+	// Image assets before applying the changes.
 	if ( $image instanceof WP_Image_Editor ) {
 
 		/**
@@ -577,12 +577,12 @@ function image_edit_apply_changes( $image, $changes ) {
 	} elseif ( is_gd_image( $image ) ) {
 
 		/**
-		 * Filters the GD image resource before applying changes to the image.
+		 * Filters the GD image assets before applying changes to the image.
 		 *
 		 * @since 2.9.0
 		 * @deprecated 3.5.0 Use {@see 'wp_image_editor_before_change'} instead.
 		 *
-		 * @param resource|GdImage $image   GD image resource or GdImage instance.
+		 * @param assets|GdImage $image   GD image assets or GdImage instance.
 		 * @param array            $changes Array of change operations.
 		 */
 		$image = apply_filters_deprecated( 'image_edit_before_change', array( $image, $changes ), '3.5.0', 'wp_image_editor_before_change' );

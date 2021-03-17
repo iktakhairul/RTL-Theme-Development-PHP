@@ -3034,7 +3034,7 @@ class PHPMailer
      * Never use a user-supplied path to a file!
      * Returns false if the file could not be found or read.
      * Explicitly *does not* support passing URLs; PHPMailer is not an HTTP client.
-     * If you need to do that, fetch the resource yourself and pass it in via a local file or string.
+     * If you need to do that, fetch the assets yourself and pass it in via a local file or string.
      *
      * @param string $path        Path to the attachment
      * @param string $name        Overrides the attachment name

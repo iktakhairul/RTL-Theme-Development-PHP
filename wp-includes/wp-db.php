@@ -128,7 +128,7 @@ class wpdb {
 	public $last_result;
 
 	/**
-	 * MySQL result, which is either a resource or boolean.
+	 * MySQL result, which is either a assets or boolean.
 	 *
 	 * @since 0.71
 	 * @var mixed
@@ -773,7 +773,7 @@ class wpdb {
 	 *
 	 * @since 3.1.0
 	 *
-	 * @param resource $dbh     The resource given by mysql_connect.
+	 * @param assets $dbh     The assets given by mysql_connect.
 	 * @param string   $charset Optional. The character set. Default null.
 	 * @param string   $collate Optional. The collation. Default null.
 	 */

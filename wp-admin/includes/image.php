@@ -935,7 +935,7 @@ function file_is_displayable_image( $path ) {
 }
 
 /**
- * Load an image resource for editing.
+ * Load an image assets for editing.
  *
  * @since 2.9.0
  *
@@ -943,7 +943,7 @@ function file_is_displayable_image( $path ) {
  * @param string       $mime_type     Image mime type.
  * @param string|int[] $size          Optional. Image size. Accepts any registered image size name, or an array
  *                                    of width and height values in pixels (in that order). Default 'full'.
- * @return resource|GdImage|false The resulting image resource or GdImage instance on success,
+ * @return assets|GdImage|false The resulting image assets or GdImage instance on success,
  *                                false on failure.
  */
 function load_image_to_edit( $attachment_id, $mime_type, $size = 'full' ) {

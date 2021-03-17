@@ -3975,7 +3975,7 @@ function _update_generic_term_count( $terms, $taxonomy ) {
  * @param int|object $term_taxonomy_id ID of the term_taxonomy item to receive a new term, or the term_taxonomy object
  *                                     (corresponding to a row from the term_taxonomy table).
  * @param bool       $record           Whether to record data about the split term in the options table. The recording
- *                                     process has the potential to be resource-intensive, so during batch operations
+ *                                     process has the potential to be assets-intensive, so during batch operations
  *                                     it can be beneficial to skip inline recording and do it just once, after the
  *                                     batch is processed. Only set this to `false` if you know what you are doing.
  *                                     Default: true.
@@ -4698,7 +4698,7 @@ function is_object_in_taxonomy( $object_type, $taxonomy ) {
  * @param int    $object_id     Optional. The ID of the object. Default 0.
  * @param string $object_type   Optional. The type of object for which we'll be retrieving
  *                              ancestors. Accepts a post type or a taxonomy name. Default empty.
- * @param string $resource_type Optional. Type of resource $object_type is. Accepts 'post_type'
+ * @param string $resource_type Optional. Type of assets $object_type is. Accepts 'post_type'
  *                              or 'taxonomy'. Default empty.
  * @return int[] An array of IDs of ancestors from lowest to highest in the hierarchy.
  */
@@ -4740,7 +4740,7 @@ function get_ancestors( $object_id = 0, $object_type = '', $resource_type = '' )
 	 * @param int[]  $ancestors     An array of IDs of object ancestors.
 	 * @param int    $object_id     Object ID.
 	 * @param string $object_type   Type of object.
-	 * @param string $resource_type Type of resource $object_type is.
+	 * @param string $resource_type Type of assets $object_type is.
 	 */
 	return apply_filters( 'get_ancestors', $ancestors, $object_id, $object_type, $resource_type );
 }

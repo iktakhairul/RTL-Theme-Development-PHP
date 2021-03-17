@@ -3937,7 +3937,7 @@ function rel_canonical() {
  *                            to determine the ID and context. Default 'post'.
  * @param bool   $allow_slugs Optional. Whether to allow post slugs in the shortlink. It is up to the plugin how
  *                            and whether to honor this. Default true.
- * @return string A shortlink or an empty string if no shortlink exists for the requested resource or if shortlinks
+ * @return string A shortlink or an empty string if no shortlink exists for the requested assets or if shortlinks
  *                are not enabled.
  */
 function wp_get_shortlink( $id = 0, $context = 'post', $allow_slugs = true ) {

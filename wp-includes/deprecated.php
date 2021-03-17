@@ -3197,7 +3197,7 @@ function _get_post_ancestors( &$post ) {
  * @see wp_get_image_editor()
  *
  * @param string $file Filename of the image to load.
- * @return resource|GdImage|string The resulting image resource or GdImage instance on success,
+ * @return assets|GdImage|string The resulting image assets or GdImage instance on success,
  *                                 error string on failure.
  */
 function wp_load_image( $file ) {

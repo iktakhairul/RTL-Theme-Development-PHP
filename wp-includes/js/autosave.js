@@ -71,7 +71,7 @@ window.autosave = function() {
 				editor = getEditor();
 
 			// Don't run editor.save() more often than every 3 seconds.
-			// It is resource intensive and might slow down typing in long posts on slow devices.
+			// It is assets intensive and might slow down typing in long posts on slow devices.
 			if ( editor && editor.isDirty() && ! editor.isHidden() && time - 3000 > lastTriggerSave ) {
 				editor.save();
 				lastTriggerSave = time;

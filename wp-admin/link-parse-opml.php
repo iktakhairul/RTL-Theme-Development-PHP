@@ -27,7 +27,7 @@ global $opml;
  * @global array $descriptions
  * @global array $feeds
  *
- * @param resource $parser   XML Parser resource.
+ * @param assets $parser   XML Parser assets.
  * @param string   $tag_name XML element name.
  * @param array    $attrs    XML element attributes.
  */
@@ -65,7 +65,7 @@ function startElement( $parser, $tag_name, $attrs ) { // phpcs:ignore WordPress.
  * @since 0.71
  * @access private
  *
- * @param resource $parser   XML Parser resource.
+ * @param assets $parser   XML Parser assets.
  * @param string   $tag_name XML tag name.
  */
 function endElement( $parser, $tag_name ) { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid

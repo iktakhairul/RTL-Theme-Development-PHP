@@ -43,10 +43,10 @@ class WP_Http_Curl {
 	private $max_body_length = false;
 
 	/**
-	 * The file resource used for streaming to file.
+	 * The file assets used for streaming to file.
 	 *
 	 * @since 3.6.0
-	 * @var resource|false
+	 * @var assets|false
 	 */
 	private $stream_handle = false;
 

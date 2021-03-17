@@ -358,7 +358,7 @@ function rest_api_loaded() {
 }
 
 /**
- * Retrieves the URL prefix for any API resource.
+ * Retrieves the URL prefix for any API assets.
  *
  * @since 4.4.0
  *
@@ -3095,7 +3095,7 @@ function rest_get_route_for_term( $term ) {
  *
  * @since 5.5.0
  *
- * @return string The REST route of the resource, or an empty string if no resource identified.
+ * @return string The REST route of the assets, or an empty string if no assets identified.
  */
 function rest_get_queried_resource_route() {
 	if ( is_singular() ) {

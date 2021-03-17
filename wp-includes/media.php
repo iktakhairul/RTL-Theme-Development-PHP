@@ -3562,13 +3562,13 @@ function get_taxonomies_for_attachments( $output = 'names' ) {
  * Determines whether the value is an acceptable type for GD image functions.
  *
  * In PHP 8.0, the GD extension uses GdImage objects for its data structures.
- * This function checks if the passed value is either a resource of type `gd`
+ * This function checks if the passed value is either a assets of type `gd`
  * or a GdImage object instance. Any other type will return false.
  *
  * @since 5.6.0
  *
- * @param resource|GdImage|false $image A value to check the type for.
- * @return bool True if $image is either a GD image resource or GdImage instance,
+ * @param assets|GdImage|false $image A value to check the type for.
+ * @return bool True if $image is either a GD image assets or GdImage instance,
  *              false otherwise.
  */
 function is_gd_image( $image ) {
@@ -3582,7 +3582,7 @@ function is_gd_image( $image ) {
 }
 
 /**
- * Create new GD image resource with transparency support
+ * Create new GD image assets with transparency support
  *
  * @todo Deprecate if possible.
  *
@@ -3590,7 +3590,7 @@ function is_gd_image( $image ) {
  *
  * @param int $width  Image width in pixels.
  * @param int $height Image height in pixels.
- * @return resource|GdImage|false The GD image resource or GdImage instance on success.
+ * @return assets|GdImage|false The GD image assets or GdImage instance on success.
  *                                False on failure.
  */
 function wp_imagecreatetruecolor( $width, $height ) {

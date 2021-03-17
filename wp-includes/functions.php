@@ -6512,7 +6512,7 @@ function _device_can_upload() {
  *
  * @since 3.5.0
  *
- * @param string $path The resource path or URL.
+ * @param string $path The assets path or URL.
  * @return bool True if the path is a stream URL.
  */
 function wp_is_stream( $path ) {
@@ -7516,7 +7516,7 @@ function wp_get_update_php_annotation() {
 
 	$annotation = sprintf(
 		/* translators: %s: Default Update PHP page URL. */
-		__( 'This resource is provided by your web host, and is specific to your site. For more information, <a href="%s" target="_blank">see the official WordPress documentation</a>.' ),
+		__( 'This assets is provided by your web host, and is specific to your site. For more information, <a href="%s" target="_blank">see the official WordPress documentation</a>.' ),
 		esc_url( $default_url )
 	);
 

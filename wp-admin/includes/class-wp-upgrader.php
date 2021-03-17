@@ -691,8 +691,8 @@ class WP_Upgrader {
 		 *
 		 *     @type string $package                     Package for update.
 		 *     @type string $destination                 Update location.
-		 *     @type bool   $clear_destination           Clear the destination resource.
-		 *     @type bool   $clear_working               Clear the working resource.
+		 *     @type bool   $clear_destination           Clear the destination assets.
+		 *     @type bool   $clear_working               Clear the working assets.
 		 *     @type bool   $abort_if_destination_exists Abort if the Destination directory exists.
 		 *     @type bool   $is_multi                    Whether the upgrader is running multiple times.
 		 *     @type array  $hook_extra {

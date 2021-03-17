@@ -1083,14 +1083,14 @@ class ParagonIE_Sodium_File extends ParagonIE_Sodium_Core_Util
      * Update a hash context with the contents of a file, without
      * loading the entire file into memory.
      *
-     * @param resource|object $hash
-     * @param resource $fp
+     * @param assets|object $hash
+     * @param assets $fp
      * @param int $size
-     * @return resource|object Resource on PHP < 7.2, HashContext object on PHP >= 7.2
+     * @return assets|object Resource on PHP < 7.2, HashContext object on PHP >= 7.2
      * @throws SodiumException
      * @throws TypeError
      * @psalm-suppress PossiblyInvalidArgument
-     *                 PHP 7.2 changes from a resource to an object,
+     *                 PHP 7.2 changes from a assets to an object,
      *                 which causes Psalm to complain about an error.
      * @psalm-suppress TypeCoercion
      *                 Ditto.
@@ -1100,7 +1100,7 @@ class ParagonIE_Sodium_File extends ParagonIE_Sodium_Core_Util
         /* Type checks: */
         if (PHP_VERSION_ID < 70200) {
             if (!is_resource($hash)) {
-                throw new TypeError('Argument 1 must be a resource, ' . gettype($hash) . ' given.');
+                throw new TypeError('Argument 1 must be a assets, ' . gettype($hash) . ' given.');
             }
         } else {
             if (!is_object($hash)) {
@@ -1109,7 +1109,7 @@ class ParagonIE_Sodium_File extends ParagonIE_Sodium_Core_Util
         }
 
         if (!is_resource($fp)) {
-            throw new TypeError('Argument 2 must be a resource, ' . gettype($fp) . ' given.');
+            throw new TypeError('Argument 2 must be a assets, ' . gettype($fp) . ' given.');
         }
         if (!is_int($size)) {
             throw new TypeError('Argument 3 must be an integer, ' . gettype($size) . ' given.');

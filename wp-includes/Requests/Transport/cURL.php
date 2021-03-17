@@ -430,7 +430,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 	/**
 	 * Collect the headers as they are received
 	 *
-	 * @param resource $handle cURL resource
+	 * @param assets $handle cURL assets
 	 * @param string $headers Header string
 	 * @return integer Length of provided header
 	 */
@@ -455,7 +455,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 *
 	 * @since 1.6.1
 	 *
-	 * @param resource $handle cURL resource
+	 * @param assets $handle cURL assets
 	 * @param string $data Body data
 	 * @return integer Length of provided data
 	 */

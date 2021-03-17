@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Database Table
  * Plugin URI:        https://github.com/iktakhairul/wordpress-plugin-development.git
- * Description:       This is ikta's plugin. Anyone who is interested for me please mail me to 'iktakhairul@gmail.com'.
- * Version:           1.0
+ * Description:       This is ikta's plugin. Anyone who is interested for me please mail me to 'databaseTable@gmail.com'.
+ * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Shah Md. Iktakhairul Islam
@@ -46,7 +46,6 @@ function add_custom_menu() {
         'database_newPage_sub_func'
     );
 }
-add_action('admin_enqueue_scripts', 'my_admin_enqueue_scripts');
 
 function custom_plugin_func() {
     include_once PLUGIN_DIR_PATH.'/views/all-pages.php';
@@ -60,6 +59,10 @@ function database_newPage_sub_func() {
     include_once PLUGIN_DIR_PATH.'/views/add-new-pages.php';
 }
 
-function my_admin_enqueue_scripts()  {
-    wp_enqueue_style('style', PLUGIN_DIR_PATH.'resource/css/style.css', '', '1.0');
+add_action('admin_enqueue_scripts', 'my_admin_scripts');
+
+function my_admin_scripts()  {
+    wp_enqueue_style('table_style', plugins_url('/assets/css/jquery.dataTables.min.css', __FILE__), array(), '1.0.0', 'all');
+    wp_enqueue_script('table_script', plugins_url('/assets/js/jquery.dataTables.min.js', __FILE__), array('jquery'), '1.0.0', true);
+    wp_enqueue_script('table_script-init', plugins_url('/assets/js/init.js', __FILE__), array('table_script'), '1.0.0', true);
 }

@@ -3255,7 +3255,7 @@ function wp_site_icon() {
 }
 
 /**
- * Prints resource hints to browsers for pre-fetching, pre-rendering
+ * Prints assets hints to browsers for pre-fetching, pre-rendering
  * and pre-connecting to web sites.
  *
  * Gives hints to browsers to prefetch specific pages or render them
@@ -3285,11 +3285,11 @@ function wp_resource_hints() {
 		$unique_urls = array();
 
 		/**
-		 * Filters domains and URLs for resource hints of relation type.
+		 * Filters domains and URLs for assets hints of relation type.
 		 *
 		 * @since 4.6.0
 		 *
-		 * @param array  $urls          URLs to print for resource hints.
+		 * @param array  $urls          URLs to print for assets hints.
 		 * @param string $relation_type The relation type the URLs are printed for, e.g. 'preconnect' or 'prerender'.
 		 */
 		$urls = apply_filters( 'wp_resource_hints', $urls, $relation_type );
@@ -4704,7 +4704,7 @@ function get_the_generator( $type = '' ) {
 			$gen = '<generator>' . esc_url_raw( 'https://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) ) . '</generator>';
 			break;
 		case 'rdf':
-			$gen = '<admin:generatorAgent rdf:resource="' . esc_url_raw( 'https://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) ) . '" />';
+			$gen = '<admin:generatorAgent rdf:assets="' . esc_url_raw( 'https://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) ) . '" />';
 			break;
 		case 'comment':
 			$gen = '<!-- generator="WordPress/' . esc_attr( get_bloginfo( 'version' ) ) . '" -->';

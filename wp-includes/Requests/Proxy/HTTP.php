@@ -96,7 +96,7 @@ class Requests_Proxy_HTTP implements Requests_Proxy {
 	 * Set cURL parameters before the data is sent
 	 *
 	 * @since 1.6
-	 * @param resource $handle cURL resource
+	 * @param assets $handle cURL assets
 	 */
 	public function curl_before_send(&$handle) {
 		curl_setopt($handle, CURLOPT_PROXYTYPE, CURLPROXY_HTTP);

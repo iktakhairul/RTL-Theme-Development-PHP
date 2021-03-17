@@ -1,1 +1,0 @@
-<h2 class="new-file-css">All Pages!</h2>

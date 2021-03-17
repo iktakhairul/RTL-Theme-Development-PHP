@@ -337,7 +337,7 @@ var DEFAULT_STATUS = 'info';
  * @typedef {Object} WPNoticeAction Object describing a user action option associated with a notice.
  *
  * @property {string}    label    Message to use as action label.
- * @property {?string}   url      Optional URL of resource if action incurs
+ * @property {?string}   url      Optional URL of assets if action incurs
  *                                browser navigation.
  * @property {?Function} onClick  Optional function to invoke when action is
  *                                triggered by user.

@@ -146,7 +146,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	/**
 	 * Resizes current image.
 	 *
-	 * Wraps `::_resize()` which returns a GD resource or GdImage instance.
+	 * Wraps `::_resize()` which returns a GD assets or GdImage instance.
 	 *
 	 * At minimum, either a height or width must be provided. If one of the two is set
 	 * to null, the resize will maintain aspect ratio according to the provided dimension.

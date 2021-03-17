@@ -967,8 +967,8 @@ function () {
      * @param {number} [options.step=1]
      * @param {number} [options.left=0]
      * @param {number} [options.top=0]
-     * @param {number} [options.width=width of resource]
-     * @param {number} [options.height=height of resource]
+     * @param {number} [options.width=width of assets]
+     * @param {number} [options.height=height of assets]
      */
     value: function getColorAsync(resource, callback, options) {
       if (resource.complete) {
@@ -980,7 +980,7 @@ function () {
     /**
      * Get the average color from images, videos and canvas.
      *
-     * @param {HTMLImageElement|HTMLVideoElement|HTMLCanvasElement} resource
+     * @param {HTMLImageElement|HTMLVideoElement|HTMLCanvasElement} assets
      * @param {Object|null} [options]
      * @param {Array}  [options.defaultColor=[255, 255, 255, 255]]
      * @param {*}      [options.data]
@@ -989,8 +989,8 @@ function () {
      * @param {number} [options.step=1]
      * @param {number} [options.left=0]
      * @param {number} [options.top=0]
-     * @param {number} [options.width=width of resource]
-     * @param {number} [options.height=height of resource]
+     * @param {number} [options.width=width of assets]
+     * @param {number} [options.height=height of assets]
      *
      * @returns {Object}
      */
