@@ -71,7 +71,7 @@ function custom_plugin_func() {
     ?>
         <div class="wrap">
             <h1 class="wp-heading-inline">Database Page</h1>
-            <table id="database_table-example" class="display" style="width:100%">
+            <table id="database_table-example" class="display" style="width:100%; text-align: center;">
                 <thead>
                 <tr>
                     <th>User Id</th>
