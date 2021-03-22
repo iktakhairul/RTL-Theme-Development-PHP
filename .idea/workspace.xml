@@ -2,8 +2,272 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a652017d-ee90-4d7c-a5c7-dce05cd9e37f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/databaseTable/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/databaseTable/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentytwenty/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentytwenty/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/.jshintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/author.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/custom-editor-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/custom-editor-style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/custom-editor-style.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/global-templates/hero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/global-templates/left-sidebar-check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/global-templates/right-sidebar-check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/gulpconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/class-wp-bootstrap-navwalker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/custom-comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/custom-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/customizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/editor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/enqueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/extras.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/hooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/jetpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/setup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/style-wpcom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/template-tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/theme-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/widgets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/woocommerce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/wpcom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/js/customizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/js/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/de_DE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/de_DE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/de_DE_formal.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/de_DE_formal.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/el_GR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/el_GR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/es_ES.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/es_ES.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/fr_FR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/fr_FR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/he_IL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/he_IL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/it_IT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/it_IT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/ja_JP.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/ja_JP.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/ko_KR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/ko_KR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/nb_NO.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/nb_NO.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/nl_NL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/nl_NL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/nn_NO.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/nn_NO.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/pl_PL.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/pl_PL.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/pt_BR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/pt_BR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/pt_PT.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/pt_PT.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/ru_RU.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/ru_RU.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/sl_SI.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/sl_SI.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/sv_SE.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/sv_SE.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/tr_TR.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/tr_TR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/languages/understrap.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content-blank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content-empty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content-none.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content-search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content-single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/loop-templates/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/blank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/both-sidebarspage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/empty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/fullwidthpage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/left-sidebarpage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/right-sidebarpage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/phpcs.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/assets/bootstrap4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/assets/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/custom-editor-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_contact-form7.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/understrap/understrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/understrap/woocommerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/searchform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar-templates/sidebar-footerfull.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar-templates/sidebar-hero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar-templates/sidebar-herocanvas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar-templates/sidebar-left.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar-templates/sidebar-right.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar-templates/sidebar-statichero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/js/bootstrap4/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/js/bootstrap4/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/js/bootstrap4/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/js/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/js/custom-javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/js/skip-link-focus-fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/bootstrap4/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/src/sass/fontawesome/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/cart/cart-empty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/cart/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/cart/proceed-to-checkout-button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/checkout/form-checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/checkout/form-coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/checkout/form-pay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/checkout/payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/global/form-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/loop/add-to-cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/loop/orderby.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/downloads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/form-edit-account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/form-edit-address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/form-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/form-lost-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/form-reset-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/my-address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/my-orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/myaccount/orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/product-searchform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/single-product/add-to-cart/simple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +278,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content/themes/iktakhairul" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -36,7 +300,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/databaseTable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/iktakhairul" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -46,6 +310,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/iktakhairul" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/databaseTable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -70,6 +335,8 @@
       <workItem from="1616074682011" duration="9000" />
       <workItem from="1616158692836" duration="99000" />
       <workItem from="1616386328388" duration="1766000" />
+      <workItem from="1616390081081" duration="6210000" />
+      <workItem from="1616397401948" duration="4213000" />
     </task>
     <servers />
   </component>
