@@ -48,19 +48,16 @@ function add_custom_menu() {
 }
 
 function custom_plugin_func() {
-   $url = 'https://github.com/iktakhairul/wordpress-plugin-development/blob/main/sample.json';
-   // $url = plugins_url('/assets/sample.json', __FILE__);
+    $url = plugins_url('/assets/sample.json', __FILE__);
     $args = array(
         'headers' => array(
             'Content-Type' => 'application\json'
         ),
     );
     $data_option = get_option('sample_json_result');
-
     if ($data_option == false) {
         $response = wp_remote_get($url, $args);
         $body = wp_remote_retrieve_body($response);
-
         if ($body != null | !empty($body)) {
             update_option('sample_json_result', $body);
         }
@@ -109,7 +106,7 @@ function database_newPage_sub_func() {
 
 add_action('admin_enqueue_scripts', 'my_admin_scripts');
 
-function my_admin_scripts( $hook )  {
+function my_admin_scripts($hook) {
 
     if ('toplevel_page_database-plugin' != $hook) {
         return;
