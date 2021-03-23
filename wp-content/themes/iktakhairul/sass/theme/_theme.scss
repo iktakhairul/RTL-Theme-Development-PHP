@@ -1,1 +1,199 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+// Home_Page CSS
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$xs: 0;
+git
+
+
+$primary: #223A47;
+$secondary: #F27257;
+
+#wrapper-navbar {
+  .top-header-holder {
+	height: 200px;
+	background-color: #f1f1f1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.container {
+	  .logo-holder {
+		.logo {
+
+		}
+	  }
+	}
+  }
+  .logo-holder-container {
+	text-decoration: none;
+  }
+  .contact-holder {
+	font-family: 'Signika', sans-serif;
+	transition: 0.25s ease all;
+	font-size: 12px;
+
+	a {
+	  display: inline-block;
+	  margin-right: 1em;
+	  margin-bottom: 1em;
+	  color: white;
+	}
+  }
+  .reservation-btn {
+	font-family: 'Fredericka the great';
+	font-size: 22px;
+	display: inline-block;
+	padding: 0.25em 4.5em;
+	transition: 0.25s ease all;
+	cursor: pointer;
+	text-decoration: none;
+	border: 1px dotted;
+	border-radius: 43px;
+	line-height: 47px;
+	&:hover {
+	  text-decoration: none;
+	}
+  }
+  .social-media-holder {
+	font-size: 22px;
+	padding: 10px 15px;
+	.fa {
+	  color: white;
+	  margin-right: 20px;
+	  margin-bottom: 5px;
+	  &:hover {
+		text-decoration: none;
+		color: darken($secondary, 15%);
+	  }
+	}
+  }
+  margin-bottom: -260px;
+  #main-nav {
+	border-top: 1px solid rgba(#5DA0AA, 0.5);
+	border-bottom: 1px solid rgba(#5DA0AA, 0.5);
+	padding: 0;
+  }
+  ul {
+	flex: 1;
+	justify-content: space-between;
+	li {
+	  a {
+		font-weight: 500;
+		font-size: 12px;
+		text-transform: uppercase;
+		padding: 1.5em 0.5em;
+	  }
+	  &.current_page_item {
+		a {
+		  color: $secondary;
+		}
+	  }
+	}
+  }
+}
+.home-banner {
+  height: 800px;
+  background-color: #fff;
+  background-image: url("./img/home-banner-new.jpg");
+  background-size: cover;
+}
+
+// Footer Section
+body {
+  font-family: 'Signika', sans-serif;
+}
+.bg-grey {
+  background: #292929;
+}
+.logo-footer {
+  margin-bottom: 40px;
+}
+footer {
+  color: grey;
+}
+.footer-ap {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+footer h6:after {
+  position: absolute;
+  content: "";
+  background: grey;
+  width: 12%;
+  height: 1px;
+  left: 0;
+  bottom: -20px;
+}
+.btn-footer {
+  color: grey;
+
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+.btn-footer:hover {
+
+  text-decoration: none;
+
+}
+.form-footer input[type="text"] {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  outline: none;
+  padding-left: 10px;
+
+}
+::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.form-footer input[type="button"] {
+  border: none;
+  background:#232323;
+  margin-left: -5px;
+  color: #fff;
+  outline: none;
+  border-radius: 0 16px 16px 0;
+  padding: 2px 12px;
+}
+.social .fa {
+  color: grey;
+  font-size: 22px;
+  padding: 10px 15px;
+  background: #3c3c3c;
+}
+footer ul li {
+  list-style: none;
+  display: block;
+}
+footer ul  {
+  padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: none;
+  color: #FF8C00 !important;
+
+}
+.logo-part {
+  border-right: 1px solid grey;
+  height: 100%;
+}
+
+#about-reformed-tech{
+
+  margin-right: 9px;
+}
