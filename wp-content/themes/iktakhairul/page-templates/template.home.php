@@ -14,7 +14,7 @@ get_header();
 ?>
 
 <div class="home-banner">
-	<img class="home-banner" src="<?php echo get_template_directory_uri(); ?>/img/car.jpg" alt="Reformed Tech">
+<!--	<img class="home-banner" src="--><?php //echo get_template_directory_uri(); ?><!--/img/car.jpg" alt="Reformed Tech">-->
 </div>
 
 <?php

@@ -74,9 +74,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<a class="social-ap" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
 								<a class="social-ap" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 							</div>
-							<button class="navbar-toggler menu-button-controller" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-								<span class="navbar-toggler-icon"></span>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<div class="bar"></div>
 							</button>
+							<p class="menu-title">Menu</p>
 						</div>
 					</div>
 				</div>
