@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row">
 					<div class="col-md-6 ">
 						<div class="logo-part">
-							<img src="https://1.bp.blogspot.com/-ZugNTvFIsJs/YCt9rxi0rBI/AAAAAAAArqY/rQp9X8tmdzsEk6xCT2Rqvw6rWsQ5tDiAwCLcBGAsYHQ/s823/output-onlinepngtools.png" class="w-50 logo-footer" >
+							<img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" class="w-50 logo-footer" >
 							<p class="footer-ap">32/1, Road: 3, Shyamoli, Dhaka 1207,Bangladesh</p>
 							<p class="footer-ap" id="about-reformed-tech">Thinking about updating your Web Application & Software to expand your business and attract ideal customers. Contact ReformedTech & take Control of our business.</p>
 						</div>

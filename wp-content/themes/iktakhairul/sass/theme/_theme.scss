@@ -1,4 +1,6 @@
 // Home_Page CSS
+$xxl: 2900px;
+$xxl: 1400px;
 $xl: 1200px;
 $lg: 992px;
 $md: 768px;
@@ -13,20 +15,41 @@ $secondary: #F27257;
 	background-color: #f1f1f1;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	@media (max-width: $lg) {
+	  padding-top: 40px;
+	  padding-bottom: 20px;
+	}
+	@media (max-width: $xl) {
+
+	}
+	@media (max-width: $xxl) {
+
+	}
   }
   .logo-holder-container {
 	text-decoration: none;
+  }
+  .reservation-holder {
+	@media (max-width: $lg) {
+	  text-align: center;
+	}
   }
   .contact-holder {
 	font-family: 'Signika', sans-serif;
 	transition: 0.25s ease all;
 	font-size: 12px;
-
 	a {
 	  display: inline-block;
 	  margin-right: 1em;
 	  margin-bottom: 1em;
 	  color: white;
+	}
+	@media (max-width: $lg) {
+	  .social-media-holder-tablet {
+		display: inline-block;
+		font-size: 14px;
+		margin-left: 1em;
+	  }
 	}
   }
   .reservation-btn {
@@ -43,6 +66,10 @@ $secondary: #F27257;
 	&:hover {
 	  text-decoration: none;
 	}
+	@media (max-width: $lg) {
+	  font-size: 18px;
+	  padding: 0.125em 3.8em;
+	}
   }
   .social-media-holder {
 	font-size: 22px;
@@ -54,6 +81,16 @@ $secondary: #F27257;
 	  &:hover {
 		text-decoration: none;
 		color: darken($secondary, 15%);
+	  }
+	  @media (max-width: $lg) {
+		display: none;
+	  }
+	  &.social-media-holder-tablet {
+		display: none;
+		@media (max-width: $lg) {
+		  display: inline-block;
+		  font-size: 14px;
+		}
 	  }
 	}
   }
@@ -70,10 +107,7 @@ $secondary: #F27257;
 		font-weight: 500;
 		font-size: 12px;
 		text-transform: uppercase;
-		padding: 1.5em 0.5em;
-		@media (max-width: $xl) {
-		  font-size: 12px;
-		}
+		padding: 1em 0.5em;
 	  }
 	  &.current_page_item {
 		a {
@@ -99,6 +133,10 @@ body {
 }
 .logo-footer {
   margin-bottom: 40px;
+}
+.logo-part {
+  border-right: 1px solid grey;
+  height: 100%;
 }
 footer {
   color: grey;
@@ -178,10 +216,6 @@ a:hover {
   text-decoration: none;
   color: #FF8C00 !important;
 
-}
-.logo-part {
-  border-right: 1px solid grey;
-  height: 100%;
 }
 
 #about-reformed-tech{

@@ -45,6 +45,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<i class="fa fa-phone"></i>
 									215-328-813
 								</a>
+								<div class="social-media-holder-tablet">
+									<div class="row header-app-row-margin">
+										<a class="social-app" href="https://www.facebook.com/reformedtech"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+										<a class="social-ap" href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+										<a class="social-ap" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+										<a class="social-app" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										<a class="social-ap" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+										<a class="social-ap" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+									</div>
+								</div>
 								<a href="#" class="address"><i class="fa fa-map"></i>
 									32/1, Road: 3, Shyamoli, Dhaka 1207,Bangladesh
 								</a>
@@ -64,6 +74,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<a class="social-ap" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
 								<a class="social-ap" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 							</div>
+							<button class="navbar-toggler menu-button-controller" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+								<span class="navbar-toggler-icon"></span>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -79,13 +92,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</h2>
 
 			<div class="container">
-
-
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
 				<!-- The WordPress Menu goes here -->
 				<?php
 				wp_nav_menu(
@@ -101,7 +107,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				);
 				?>
-
 			</div><!-- .container -->
 		</nav><!-- .site-navigation -->
 

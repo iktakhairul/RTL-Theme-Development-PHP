@@ -7,7 +7,7 @@
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/template.home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/template.home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,8 @@
       <workItem from="1616386328388" duration="1766000" />
       <workItem from="1616390081081" duration="6210000" />
       <workItem from="1616397401948" duration="12765000" />
-      <workItem from="1616474468185" duration="17619000" />
+      <workItem from="1616474468185" duration="20064000" />
+      <workItem from="1616560757577" duration="6727000" />
     </task>
     <servers />
   </component>
