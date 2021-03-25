@@ -14,9 +14,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
-<style type="text/css">
 
-</style>
+<!-- The WordPress Footer Menu goes here -->
+<nav id="footer-nav" class="navbar navbar-expand-lg" aria-labelledby="main-nav-label">
+	<h2 id="main-nav-label" class="sr-only">
+		<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
+	</h2>
+	<div class="container">
+		<?php
+		wp_nav_menu(
+				array(
+						'theme_location'  => 'primary',
+						'container_class' => 'collapse navbar-collapse',
+						'container_id'    => 'navbarNavDropdown',
+						'menu_class'      => 'navbar-nav',
+						'fallback_cb'     => '',
+						'menu_id'         => 'main-menu',
+						'depth'           => 2,
+						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+				)
+		);
+		?>
+	</div><!-- .container -->
+</nav><!-- .footer site-navigation -->
+
 <footer class="container-fluid bg-grey py-5">
 	<div class="container">
 		<div class="row">
