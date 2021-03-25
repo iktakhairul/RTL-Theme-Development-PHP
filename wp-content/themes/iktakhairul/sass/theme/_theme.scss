@@ -1,4 +1,4 @@
-// Home_Page CSS
+// Header Section's CSS
 $xxl: 2100px;
 $xl: 1200px;
 $lg: 992px;
@@ -15,6 +15,34 @@ $secondary: #F27257;
 	background-color: $primary;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	@media (max-width: $md) {
+	  height: 80px;
+	  padding-top: 0;
+	  padding-bottom: 0;
+	  .col-md-4 {
+		display: none;
+	  }
+	  .col-md-6 {
+		margin-top: -12px;
+	  }
+	  .col- {
+		margin-top: -60px;
+	  }
+	}
+	@media (max-width: $sm) {
+	  height: 50px;
+	  padding-top: 0;
+	  padding-bottom: 0;
+	  .col-md-4 {
+		display: none;
+	  }
+	  .col-md-6 {
+		margin-top: -20px;
+	  }
+	  .col- {
+		margin-top: -55px;
+	  }
+	}
 	.navbar-toggler {
 	  .bar {
 		width: 34px;
@@ -50,20 +78,38 @@ $secondary: #F27257;
 	  }
 	  @media (max-width: $xl) {
 		display: none;
+		text-align: left;
+		padding-left: 13px;
 	  }
 	  @media (max-width: $lg) {
 		display: block;
 	  }
 	  @media (max-width: $md) {
 		display: block;
+
 	  }
 	  @media (max-width: $sm) {
-		display: block;
+		//display: block;
+		display: none;
 	  }
 	}
 	@media (max-width: $lg) {
 	  padding-top: 40px;
 	  padding-bottom: 20px;
+	}
+  }
+  .col-md-6 {
+	@media (max-width: $sm) {
+	  display: flex;
+	  justify-content: space-between;
+	  text-align: right;
+	  margin-left: 150px;
+	}
+	@media (max-width: $md) {
+	  display: flex;
+	  justify-content: space-between;
+	  text-align: right;
+	  margin-left: 150px;
 	}
   }
   .logo-holder {
@@ -72,10 +118,12 @@ $secondary: #F27257;
 	  width: 220px;
 	}
 	@media (max-width: $md) {
-	  width: 160px;
+	  //width: 160px;
+	  display: none;
 	}
 	@media (max-width: $sm) {
-	  width: 130px;
+	  //width: 130px;
+	  display: none;
 	}
 	.logo-holder-container {
 	  text-decoration: none;
@@ -86,7 +134,6 @@ $secondary: #F27257;
 	  text-align: center;
 	}
   }
-
   .contact-holder {
 	font-family: 'Signika', sans-serif;
 	transition: 0.25s ease all;
@@ -108,10 +155,10 @@ $secondary: #F27257;
 	  }
 	}
 	@media (max-width: $md) {
-	  text-align: center;
+	  text-align: right;
 	  .social-media-holder-tablet {
 		display: inline-block;
-		font-size: 12px;
+		font-size: 20px;
 		margin-left: 0.5em;
 	  }
 	  .phone {
@@ -130,10 +177,10 @@ $secondary: #F27257;
 	  }
 	}
 	@media (max-width: $sm) {
-	  text-align: center;
+	  text-align: right;
 	  .social-media-holder-tablet {
 		display: inline-block;
-		font-size: 12px;
+		font-size: 16px;
 		margin-left: 0.5em;
 	  }
 	  .phone {
@@ -195,13 +242,11 @@ $secondary: #F27257;
 	  }
 	}
   }
-
   #main-nav {
 	border-top: 1px solid rgba(#5DA0AA, 0.5);
 	border-bottom: 1px solid rgba(#5DA0AA, 0.5);
 	padding: 0;
   }
-
   ul {
 	flex: 1;
 	justify-content: space-between;
@@ -230,9 +275,11 @@ $secondary: #F27257;
 }
 .home-banner {
   height: 1080px;
-  background-color: whitesmoke;
+  background-color: white;
   background-size: cover;
 }
+
+// Body Section ---------------------------------------
 
 // Footer Section ---------------------------------------
 
@@ -324,7 +371,6 @@ a:hover {
   text-decoration: none;
   color: #ff8c00 !important;
 }
-
 #about-reformed-tech {
   margin-right: 9px;
 }

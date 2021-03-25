@@ -30,15 +30,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="top-header-holder">
 			<div class="container">
-				<div class="row align-items-end">
-					<div class="col-4">
+				<div class="row column-container">
+					<div class="col-md-4">
 						<div class="logo-holder">
 							<a class="logo-holder-container" href="#">
 								<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="Reformed Tech" width="200px">
 							</a>
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col-md-6">
 						<div class="reservation-holder">
 							<div class="contact-holder">
 								<a href="#" class="phone">
@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<a href="#" class="reservation-btn">Make a Reservation</a>
 						</div>
 					</div>
-					<div class="col">
+					<div class="col-">
 						<div class="social-media-holder">
 							<div class="row header-app-row-margin">
 								<a class="social-app" href="https://www.facebook.com/reformedtech"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -74,7 +74,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<a class="social-ap" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
 								<a class="social-ap" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 							</div>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+							<button class="navbar-toggler md-view" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 								<div class="bar"></div>
 								<div class="bar"></div>
 								<div class="bar"></div>
