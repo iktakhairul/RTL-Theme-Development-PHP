@@ -23,6 +23,11 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
+//	function register_footer_nav_menu() {
+//		register_nav_menu('secondary', 'Footer Navigation Menu');
+//	}
+//	add_action( 'after_setup_theme', 'register_footer_nav_menu' );
+
 	function understrap_setup() {
 		/*
 		 * Make theme available for translation.
@@ -47,6 +52,7 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 		register_nav_menus(
 			array(
 				'primary' => __( 'Primary Menu', 'understrap' ),
+				'footer_menu' => __( 'Footer Menu', 'understrap'),
 			)
 		);
 

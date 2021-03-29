@@ -42,3 +42,9 @@ if ( class_exists( 'Jetpack' ) ) {
 foreach ( $understrap_includes as $file ) {
 	require_once $understrap_inc_dir . $file;
 }
+
+function register_childtheme_menus() {
+	register_nav_menu('footer_menu', __( 'Footer Menu', 'child-theme-textdomain' ));
+}
+
+add_action( 'init', 'register_childtheme_menus' );

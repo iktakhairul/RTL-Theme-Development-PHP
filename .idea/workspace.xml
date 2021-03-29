@@ -10,7 +10,9 @@
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/css/theme.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/inc/setup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/template.home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/page-templates/template.home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/iktakhairul/sass/theme/_theme_variables.scss" afterDir="false" />
@@ -85,7 +87,10 @@
       <workItem from="1616397401948" duration="12765000" />
       <workItem from="1616474468185" duration="20064000" />
       <workItem from="1616560757577" duration="23307000" />
-      <workItem from="1616646658786" duration="19043000" />
+      <workItem from="1616646658786" duration="20545000" />
+      <workItem from="1616690528968" duration="251000" />
+      <workItem from="1616691066012" duration="118000" />
+      <workItem from="1616992626744" duration="6543000" />
     </task>
     <servers />
   </component>

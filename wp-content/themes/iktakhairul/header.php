@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									32/1, Road: 3, Shyamoli, Dhaka 1207,Bangladesh
 								</a>
 							</div>
-							<a href="#" class="reservation-btn">Make a Reservation</a>
+<!--							<a href="#" class="reservation-btn">Make a Reservation</a>-->
 						</div>
 					</div>
 					<div class="col-">
